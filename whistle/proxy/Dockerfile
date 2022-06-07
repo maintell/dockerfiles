@@ -1,4 +1,4 @@
-FROM adockero/whistle
+FROM maintell/whistle
 
 COPY docker_cmd.sh /usr/local/bin/
 COPY .whistle.js /usr/local/lib/node_modules/whistle/
